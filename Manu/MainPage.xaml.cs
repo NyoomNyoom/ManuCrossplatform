@@ -4,19 +4,23 @@ using Microsoft.Maui.Controls;
 
 public partial class MainPage : ContentPage
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    // Constructor
+    public MainPage()
+    {
+        InitializeComponent();
+    }
 
-	private async void OnPlayClicked(object sender, EventArgs e)
-	{
-		await Navigation.PushAsync(new SecondPage());
-	}
+    // Event handler for Play button click
+    private async void OnPlayClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MainPage());
+    }
 
-	private async void OnEncyclopediaClicked(object sender, EventArgs e)
-	{
-		await Navigation.PushAsync(new SecondPage());
-	}
+    // Event handler for Encyclopedia button click
+    private async void OnEncyclopediaClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new NavigationPage(new MainPage()));
+    }
 }
+
 
