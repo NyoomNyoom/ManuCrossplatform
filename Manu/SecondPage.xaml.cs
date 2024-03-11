@@ -2,11 +2,11 @@ namespace Manu;
 
 using Microsoft.Maui.Controls;
 
-public partial class MainPage : ContentPage
+public partial class SecondPage : ContentPage
 {
-	public void SecondPage()
+	public SecondPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
 
     private async Task onBackClicked(object sender, EventArgs e)

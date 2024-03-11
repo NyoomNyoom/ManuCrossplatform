@@ -13,13 +13,13 @@ public partial class MainPage : ContentPage
     // Event handler for Play button click
     private async void OnPlayClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new MainPage());
+        await Navigation.PushAsync(new NavigationPage(new SecondPage()));
     }
 
     // Event handler for Encyclopedia button click
     private async void OnEncyclopediaClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new NavigationPage(new MainPage()));
+        await Navigation.PushAsync(new NavigationPage(new SecondPage()));
     }
 }
 
