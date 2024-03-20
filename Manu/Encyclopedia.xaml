@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Manu.SecondPage"
-             Title="SecondPage"
-             NavigationPage.HasNavigationBar="False">
+             x:Class="Manu.Encyclopedia"
+             Title="Encyclopedia">
     <VerticalStackLayout>
         <Label 
-            Text="Game Selection!"
+            Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-
-        <Button
-            Text="Go Back"
-            x:Name="OnBack"
-            Clicked="OnBack_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

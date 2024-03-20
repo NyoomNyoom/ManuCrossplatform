@@ -58,6 +58,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Encyclopedia.xaml.cs">
+	    <DependentUpon>Encyclopedia.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Encyclopedia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="SecondPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
