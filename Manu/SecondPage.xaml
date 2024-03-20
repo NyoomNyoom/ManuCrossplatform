@@ -4,15 +4,15 @@
              x:Class="Manu.SecondPage"
              Title="SecondPage"
              NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout>
-        <Label 
-            Text="Game Selection!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Button
+    <Grid>
+        <Image
+            Source="fern_alt.jpg"
+            Aspect="AspectFill"/>
+        <Grid HorizontalOptions="Center" VerticalOptions="Center">
+            <Button
             Text="Go Back"
             x:Name="OnBack"
             Clicked="OnBack_Clicked"/>
-    </VerticalStackLayout>
+        </Grid>
+    </Grid>
 </ContentPage>
