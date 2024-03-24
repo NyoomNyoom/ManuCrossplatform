@@ -67,6 +67,9 @@
 	  <MauiXaml Update="Encyclopedia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="QuizSelect.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="SecondPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
